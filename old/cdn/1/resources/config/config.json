@@ -1,0 +1,1198 @@
+{
+  "pages": {
+    "home": {
+      "type": "NORMAL",
+      "mode": "FIT_WINDOW",
+      "layout": {
+        "LARGE": "home-layout-large",
+        "MEDIUM": "layout_18",
+        "SMALL": "layout_35"
+      },
+      "isVisible": true,
+      "id": "home",
+      "isDefault": true,
+      "header": false,
+      "label": "Page",
+      "bodyBackgroundColor": "var(--light)"
+    }
+  },
+  "layouts": {
+    "home-layout-large": {
+      "type": "FIXED",
+      "order": [
+        "3",
+        "4"
+      ],
+      "content": {
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_1",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "92.1%",
+            "width": "100.0%",
+            "height": "7.9%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_18",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "7.9%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "92.1%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      }
+    },
+    "layout_1": {
+      "type": "FIXED",
+      "order": [
+        "2",
+        "3",
+        "4"
+      ],
+      "content": {
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_19",
+          "bbox": {
+            "left": "42.9%",
+            "right": "24.2%",
+            "top": "33.9%",
+            "bottom": "13.6%",
+            "width": "32.9%",
+            "height": "52.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_27",
+          "bbox": {
+            "left": "1.2%",
+            "right": "95.9%",
+            "top": "22.2%",
+            "bottom": "20.8%",
+            "width": "2.8%",
+            "height": "57.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_28",
+          "bbox": {
+            "left": "5.1%",
+            "right": "73.1%",
+            "top": "22.0%",
+            "bottom": "11.5%",
+            "width": "21.8%",
+            "height": "66.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "label": "Default"
+    },
+    "layout_15": {
+      "type": "FIXED"
+    },
+    "layout_18": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "widgetId": "widget_14",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_19": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          },
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0.0%",
+            "bottom": "73.9%",
+            "width": "100%",
+            "height": "6.00%"
+          },
+          "widgetId": "widget_15"
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_20",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "88.1%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "11.9%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_21",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "5.9%",
+            "bottom": "11.8%",
+            "width": "100.0%",
+            "height": "82.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            }
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2"
+      ],
+      "label": "First"
+    },
+    "layout_21": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "14px",
+            "top": "50%",
+            "width": "36px",
+            "height": "36px"
+          },
+          "widgetId": "widget_2",
+          "isPending": false,
+          "setting": {
+            "vCenter": true,
+            "hCenter": false,
+            "autoProps": {
+              "top": false,
+              "bottom": true
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "60.00px",
+            "top": "50%",
+            "width": "279px",
+            "height": "42px",
+            "bottom": "0px"
+          },
+          "widgetId": "widget_3",
+          "setting": {
+            "vCenter": true,
+            "autoProps": {
+              "top": false,
+              "bottom": true
+            }
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ],
+      "label": "Default"
+    },
+    "layout_24": {
+      "type": "FIXED",
+      "content": {},
+      "order": [],
+      "label": "Second"
+    },
+    "layout_32": {
+      "content": {},
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": []
+    },
+    "layout_33": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_22",
+          "bbox": {
+            "left": "35.7%",
+            "right": "19.8%",
+            "top": "37.4%",
+            "bottom": "17.7%",
+            "width": "44.5%",
+            "height": "44.9%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ],
+      "label": "Default"
+    },
+    "layout_34": {
+      "content": {},
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": []
+    },
+    "layout_35": {
+      "type": "FIXED",
+      "order": [
+        "3",
+        "4",
+        "5"
+      ],
+      "content": {
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_23",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "92.1%",
+            "width": "100.0%",
+            "height": "7.9%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_18",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "7.9%",
+            "bottom": "14.4%",
+            "width": "100.0%",
+            "height": "77.7%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_24",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "85.6%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "14.4%"
+          },
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      }
+    },
+    "layout_36": {
+      "type": "FIXED",
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_25",
+          "bbox": {
+            "left": "4.0%",
+            "right": "86.0%",
+            "top": "17.9%",
+            "bottom": "18.8%",
+            "width": "10.0%",
+            "height": "63.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_26",
+          "bbox": {
+            "left": "18.1%",
+            "right": "0.0%",
+            "top": "17.4%",
+            "bottom": "8.8%",
+            "width": "81.9%",
+            "height": "73.8%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "label": "Default"
+    },
+    "layout_37": {
+      "content": {},
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": []
+    },
+    "layout_38": {
+      "type": "FIXED",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_19",
+          "bbox": {
+            "left": "30.4%",
+            "right": "8.6%",
+            "top": "37.5%",
+            "bottom": "18.2%",
+            "width": "61.0%",
+            "height": "44.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "label": "Default"
+    }
+  },
+  "widgets": {
+    "widget_1": {
+      "id": "widget_1",
+      "uri": "widgets/layout/fixed/",
+      "config": {},
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_1"
+        }
+      },
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "var(--light)"
+        },
+        "boxShadow": {
+          "offsetX": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "distance": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "distance": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "color": "rgba(0,0,0,0.5)"
+        }
+      },
+      "version": "1.13.0",
+      "label": "Fixed Panel"
+    },
+    "widget_2": {
+      "id": "widget_2",
+      "uri": "widgets/common/image/",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "https://vestmarnett.maps.arcgis.com/sharing/rest/content/items/8d774b3c706a43848b7814a9b056f7d2/data",
+            "originalUrl": "https://vestmarnett.maps.arcgis.com/sharing/rest/content/items/8d774b3c706a43848b7814a9b056f7d2/data",
+            "fileName": "data",
+            "originalName": "data",
+            "imgSourceType": "BY_URL",
+            "cropParam": {
+              "svgViewBox": "0 0 16 16",
+              "svgPath": "M0 0h16v16H0V0Z",
+              "cropShape": "square"
+            }
+          },
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageDisplayQualityMode": "ORIGINAL"
+        },
+        "styleConfig": {}
+      },
+      "version": "1.13.0",
+      "label": "Image"
+    },
+    "widget_3": {
+      "id": "widget_3",
+      "uri": "widgets/common/text/",
+      "config": {
+        "text": "<p><span style=\"font-size: 20px; color: rgb(255, 255, 255);\">﻿Pågående strømstans</span></p>",
+        "placeholder": "<p><span style=\"font-size: 24px; color: rgb(255, 255, 255);\">Title</span></p>",
+        "style": {
+          "verticalAlign": "center",
+          "wrap": true,
+          "overflow": "scroll",
+          "padding": "p-1"
+        }
+      },
+      "version": "1.13.0",
+      "label": "Text"
+    },
+    "widget_14": {
+      "uri": "widgets/layout/sidebar/",
+      "version": "1.13.0",
+      "config": {
+        "direction": "VERTICAL",
+        "collapseSide": "SECOND",
+        "overlay": true,
+        "size": "300px",
+        "divider": {
+          "visible": true,
+          "lineStyle": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "icon": "DOWN",
+          "offsetX": 0,
+          "offsetY": -15,
+          "position": "CENTER",
+          "iconSize": 14,
+          "width": 40,
+          "height": 15,
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": true,
+                "color": "var(--primary)"
+              },
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light-400)",
+                "opacity": 0.6
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light-400)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "4px 4px 0 0"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "4px 4px 0 0"
+            }
+          },
+          "template": "rect"
+        },
+        "defaultState": 0
+      },
+      "id": "widget_14",
+      "layouts": {
+        "FIRST": {
+          "MEDIUM": "layout_19"
+        },
+        "SECOND": {
+          "MEDIUM": "layout_24"
+        }
+      },
+      "label": "Sidebar 2"
+    },
+    "widget_15": {
+      "id": "widget_15",
+      "uri": "widgets/layout/fixed/",
+      "config": {},
+      "layouts": {
+        "DEFAULT": {
+          "MEDIUM": "layout_21"
+        }
+      },
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "var(--light)"
+        },
+        "boxShadow": {
+          "offsetX": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "distance": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "distance": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "color": "rgba(0,0,0,0.5)"
+        }
+      },
+      "version": "1.13.0",
+      "label": "Fixed Panel 2"
+    },
+    "widget_18": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.13.0",
+      "label": "Map",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true,
+          "canLocate": true,
+          "canLayers": false
+        },
+        "isUseCustomMapState": false,
+        "initialMapState": null,
+        "layoutIndex": 0,
+        "initialMapDataSourceID": "dataSource_2"
+      },
+      "id": "widget_18",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_32",
+          "SMALL": "layout_37"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2",
+          "mainDataSourceId": "dataSource_2"
+        }
+      ],
+      "enableDataAction": false
+    },
+    "widget_19": {
+      "uri": "widgets/statistic-client-side-output/",
+      "version": "1.15.0",
+      "label": "Statistic Client-side Output",
+      "config": {
+        "numberField": "NUM_AB",
+        "statFunctions": [
+          "sum"
+        ]
+      },
+      "id": "widget_19",
+      "outputDataSources": [
+        "widget_19_ouput"
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-1925222e3b9-layer-4",
+          "mainDataSourceId": "dataSource_2-1925222e3b9-layer-4",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "NUM_AB"
+          ]
+        }
+      ],
+      "style": {
+        "background": {
+          "color": null,
+          "fillType": "fill"
+        }
+      }
+    },
+    "widget_20": {
+      "id": "widget_20",
+      "uri": "widgets/layout/fixed/",
+      "config": {},
+      "layouts": {
+        "DEFAULT": {
+          "MEDIUM": "layout_33"
+        }
+      },
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "var(--light)"
+        },
+        "boxShadow": {
+          "offsetX": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "distance": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "distance": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "color": "rgba(0,0,0,0.5)"
+        }
+      },
+      "version": "1.13.0",
+      "label": "Fixed Panel 3"
+    },
+    "widget_21": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.13.0",
+      "label": "Map 2",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true
+        },
+        "isUseCustomMapState": false
+      },
+      "id": "widget_21",
+      "layouts": {
+        "MapFixedLayout": {
+          "MEDIUM": "layout_34"
+        }
+      },
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2",
+          "mainDataSourceId": "dataSource_2"
+        }
+      ]
+    },
+    "widget_22": {
+      "uri": "widgets/statistic-client-side-output/",
+      "version": "1.15.0",
+      "label": "Statistic Client-side Output 2",
+      "config": {
+        "numberField": "NUM_AB",
+        "statFunctions": [
+          "sum"
+        ]
+      },
+      "id": "widget_22",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-1925222e3b9-layer-4",
+          "mainDataSourceId": "dataSource_2-1925222e3b9-layer-4",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "NUM_AB"
+          ]
+        }
+      ]
+    },
+    "widget_23": {
+      "id": "widget_23",
+      "uri": "widgets/layout/fixed/",
+      "config": {},
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "var(--light)"
+        },
+        "boxShadow": {
+          "offsetX": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "distance": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "distance": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "color": "rgba(0,0,0,0.5)"
+        }
+      },
+      "version": "1.13.0",
+      "label": "Fixed Panel",
+      "layouts": {
+        "DEFAULT": {
+          "SMALL": "layout_36"
+        }
+      }
+    },
+    "widget_24": {
+      "id": "widget_24",
+      "uri": "widgets/layout/fixed/",
+      "config": {},
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "var(--light)"
+        },
+        "boxShadow": {
+          "offsetX": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "distance": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "distance": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "color": "rgba(0,0,0,0.5)"
+        }
+      },
+      "version": "1.13.0",
+      "label": "Fixed Panel 4",
+      "layouts": {
+        "DEFAULT": {
+          "SMALL": "layout_38"
+        }
+      }
+    },
+    "widget_25": {
+      "id": "widget_25",
+      "uri": "widgets/common/image/",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "https://vestmarnett.maps.arcgis.com/sharing/rest/content/items/8d774b3c706a43848b7814a9b056f7d2/data",
+            "originalUrl": "https://vestmarnett.maps.arcgis.com/sharing/rest/content/items/8d774b3c706a43848b7814a9b056f7d2/data",
+            "fileName": "data",
+            "originalName": "data",
+            "imgSourceType": "BY_URL",
+            "cropParam": {
+              "svgViewBox": "0 0 16 16",
+              "svgPath": "M0 0h16v16H0V0Z",
+              "cropShape": "square"
+            }
+          },
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageDisplayQualityMode": "ORIGINAL"
+        },
+        "styleConfig": {}
+      },
+      "version": "1.13.0",
+      "label": "Image 2"
+    },
+    "widget_26": {
+      "id": "widget_26",
+      "uri": "widgets/common/text/",
+      "config": {
+        "text": "<p style=\"text-align: left;\"><span style=\"font-size: 20px; color: rgb(255, 255, 255);\">﻿Pågående strømstans</span></p>",
+        "placeholder": "<p><span style=\"font-size: 24px; color: rgb(255, 255, 255);\">Title</span></p>",
+        "style": {
+          "verticalAlign": "center",
+          "wrap": true,
+          "overflow": "scroll",
+          "padding": "p-1"
+        }
+      },
+      "version": "1.13.0",
+      "label": "Text 2"
+    },
+    "widget_27": {
+      "id": "widget_27",
+      "uri": "widgets/common/image/",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "https://vestmarnett.maps.arcgis.com/sharing/rest/content/items/8d774b3c706a43848b7814a9b056f7d2/data",
+            "originalUrl": "https://vestmarnett.maps.arcgis.com/sharing/rest/content/items/8d774b3c706a43848b7814a9b056f7d2/data",
+            "fileName": "data",
+            "originalName": "data",
+            "imgSourceType": "BY_URL",
+            "cropParam": {
+              "svgViewBox": "0 0 16 16",
+              "svgPath": "M0 0h16v16H0V0Z",
+              "cropShape": "square"
+            }
+          },
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageDisplayQualityMode": "ORIGINAL"
+        },
+        "styleConfig": {}
+      },
+      "version": "1.13.0",
+      "label": "Image 3"
+    },
+    "widget_28": {
+      "id": "widget_28",
+      "uri": "widgets/common/text/",
+      "config": {
+        "text": "<p><span style=\"font-size: 20px; color: rgb(255, 255, 255);\">﻿Pågående strømstans</span></p>",
+        "placeholder": "<p><span style=\"font-size: 24px; color: rgb(255, 255, 255);\">Title</span></p>",
+        "style": {
+          "verticalAlign": "center",
+          "wrap": true,
+          "overflow": "scroll",
+          "padding": "p-1"
+        }
+      },
+      "version": "1.13.0",
+      "label": "Text 3"
+    }
+  },
+  "exbVersion": "1.13.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/morandi/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "foldable",
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "dataSources": {
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "Strømstans ExB",
+      "itemId": "e532d2fa9d45413192ecf9cee0fc7341",
+      "portalUrl": "https://vestmarnett.maps.arcgis.com"
+    },
+    "widget_19_ouput": {
+      "id": "widget_19_ouput",
+      "type": "FEATURE_LAYER",
+      "label": "statistic-client-side-output-output-data-source",
+      "geometryType": "esriGeometryPolygon",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_2-191ea4cf9e0-layer-140",
+          "mainDataSourceId": "dataSource_2-191ea4cf9e0-layer-140",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "SHAPE_Area"
+          ]
+        }
+      ],
+      "schema": {
+        "label": "statistic-client-side-output-output-data-source",
+        "idField": "objectid",
+        "fields": {
+          "objectid": {
+            "jimuName": "objectid",
+            "type": "NUMBER",
+            "name": "objectid"
+          },
+          "min": {
+            "jimuName": "min",
+            "type": "NUMBER",
+            "name": "min",
+            "originFields": [
+              "SHAPE_Area"
+            ]
+          }
+        }
+      },
+      "isDataInDataSourceInstance": true,
+      "isOutputFromWidget": true
+    },
+    "dataSource_2": {
+      "id": "dataSource_2",
+      "type": "WEB_MAP",
+      "sourceLabel": "Strømstans",
+      "itemId": "cb6a2fe5cf404fd980ecc0e256054536",
+      "portalUrl": "https://vestmarnett.maps.arcgis.com"
+    }
+  },
+  "messageConfigs": {},
+  "pageStructure": [
+    {
+      "home": []
+    }
+  ],
+  "timestamp": 1728906960867,
+  "header": {
+    "layout": {
+      "LARGE": "layout_15"
+    },
+    "height": {
+      "LARGE": 75
+    }
+  },
+  "originExbVersion": "1.13.0",
+  "controllerPanels": {},
+  "attributes": {
+    "portalUrl": "https://vestmarnett.maps.arcgis.com"
+  },
+  "sharedThemeVariables": null,
+  "customTheme": {
+    "colors": {
+      "primary": "#f1f1f8",
+      "light": "#2a4257",
+      "dark": "#fafbfb",
+      "info": "#acc0d3",
+      "secondary": "#e6d0d0"
+    }
+  }
+}
